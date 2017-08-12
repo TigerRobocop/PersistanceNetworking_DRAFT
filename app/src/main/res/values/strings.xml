@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Local Persistence</string>
+    <string name="input_new_name">Name</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_list_all">List All</string>
+    <string name="input_new_year">Year</string>
+    <string name="insert_success">New Item Inserted!</string>
+</resources>
