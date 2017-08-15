@@ -75,7 +75,9 @@ public class ListActivity extends android.app.ListActivity {
 
         mList.clear();
         mList.addAll(mDAO.GetAll());
-        getListView().getAdapter().notifyDataSetChanged();
+        onContentChanged();
+        //this.getAdapter().notifyDataSetChanged();
+       // getListView().getAdapter().notifyDataSetChanged();
 
 
 
